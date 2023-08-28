@@ -32,7 +32,7 @@
   }
 
   a {
-    color: #16bed7;
+    color: #5DA7E5;
     font-weight: 500;
   }
 
@@ -137,15 +137,15 @@
   }
   
   .text-input::-webkit-input-placeholder {
-    color: #9095a0 !important;
+    color: #57636C !important;
     opacity: 1 !important;
   }
   .text-input::-moz-placeholder {
-    color: #9095a0 !important;
+    color: #57636C !important;
     opacity: 1 !important;
   }
   .text-input::placeholder {
-    color: #9095a0 !important;
+    color: #57636C !important;
     opacity: 1 !important;
   }
   
@@ -189,14 +189,14 @@
   
   .chatbot-guest-bubble {
     color: var(--chatbot-guest-bubble-color);
-    background-color: #3B81F6;
+    background-color: #5DA7E5;
     border-radius: 6px;
   }
   
   .chatbot-input {
     color: #303235;
     background-color: #ffffff;
-    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.1);
     border-radius: var(--chatbot-border-radius);
   }
   
@@ -213,19 +213,19 @@
   }
   
   .ping span {
-    background-color: #0042da;
+    background-color: #5DA7E5;
   }
   
   .rating-icon-container svg {
     width: 42px;
     height: 42px;
-    stroke: #0042da;
+    stroke: #5DA7E5;
     fill: #f7f8ff;
     transition: fill 100ms ease-out;
   }
   
   .rating-icon-container.selected svg {
-    fill: #0042da;
+    fill: #5DA7E5;
   }
   
   .rating-icon-container:hover svg {
@@ -237,12 +237,12 @@
   }
   
   .upload-progress-bar {
-    background-color: #0042da;
+    background-color: #5DA7E5;
     border-radius: var(--chatbot-border-radius);
   }
   
   .total-files-indicator {
-    background-color: #0042da;
+    background-color: #5DA7E5;
     color: var(--chatbot-button-color);
     font-size: 10px;
   }
@@ -252,7 +252,7 @@
   }
   
   .chatbot-upload-input.dragging-over {
-    border-color: #0042da;
+    border-color: #5DA7E5;
   }
   
   .secondary-button {

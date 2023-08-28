@@ -34,9 +34,9 @@ export const BotBubble = (props: Props) => {
       </Show>
       <span
         ref={botMessageEl}
-        class="px-4 py-2 ml-2 whitespace-pre-wrap max-w-full chatbot-host-bubble"
+        class="px-4 py-4 ml-2 whitespace-pre-wrap max-w-full chatbot-host-bubble"
         data-testid="host-bubble"
-        style={{ "background-color": props.backgroundColor ?? defaultBackgroundColor, color: props.textColor ?? defaultTextColor, 'border-radius': '6px' }}
+        style={{ "background-color": props.backgroundColor ?? defaultBackgroundColor, color: props.textColor ?? defaultTextColor, 'border-radius': '8px' }}
       />
     </div>
   )
