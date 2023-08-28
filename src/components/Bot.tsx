@@ -342,7 +342,7 @@ export const Bot = (props: BotProps & { class?: string }) => {
                                             avatarSrc={props.userMessage?.avatarSrc}
                                         />
                                     )}
-                                    {message.type === 'apiMessage' && (
+                                    {message.type === 'apiMessage' && message.message && (
                                         <BotBubble
                                             message={message.message}
                                             backgroundColor={props.botMessage?.backgroundColor}
@@ -350,6 +350,9 @@ export const Bot = (props: BotProps & { class?: string }) => {
                                             showAvatar={props.botMessage?.showAvatar}
                                             avatarSrc={props.botMessage?.avatarSrc}
                                         />
+                                    )}
+                                    {message.type === 'apiMessage' && message.message == "" && (
+                                        <LoadingBubble />
                                     )}
                                     {message.type === 'userMessage' && loading() && index() === messages().length - 1 && (
                                         <LoadingBubble />
