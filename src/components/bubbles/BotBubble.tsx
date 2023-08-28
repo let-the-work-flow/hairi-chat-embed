@@ -20,7 +20,7 @@ export const BotBubble = (props: Props) => {
 
   onMount(() => {
     if (botMessageEl) {
-      botMessageEl.innerHTML = Marked.parse(props.message)
+      botMessageEl.innerHTML = Marked.parse(props.message).replace("<a","<a target='_blank' ");
     }
   })
 
