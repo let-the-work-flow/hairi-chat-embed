@@ -351,7 +351,7 @@ export const Bot = (props: BotProps & { class?: string }) => {
                                             avatarSrc={props.botMessage?.avatarSrc}
                                         />
                                     )}
-                                    {message.type === 'apiMessage' && message.message == "" && (
+                                    {message.type === 'apiMessage' && message.message == "" && index() === messages().length - 1 && (
                                         <LoadingBubble />
                                     )}
                                     {message.type === 'userMessage' && loading() && index() === messages().length - 1 && (
